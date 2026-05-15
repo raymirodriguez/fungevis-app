@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output
+client/dist/
+
+# Environment variables (NEVER commit these)
+.env
+.env.local
+.env.*.local
+client/.env
+client/.env.local
+
+# SQLite database (local only)
+server/db/fungevis.db
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
